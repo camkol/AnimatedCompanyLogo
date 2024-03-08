@@ -79,6 +79,31 @@ circle {
   width: 100px;
   fill: white;
 }
+
+@media (max-width: 2560px) {
+  .element {
+    left: 48%;
+    top: 5.7%;
+  }
+}
+@media (max-width: 1440px) {
+  .element {
+    left: 46.2%;
+    top: 5.5%;
+  }
+}
+@media (max-width: 1024px) {
+  .element {
+    left: 45%;
+    top: 5.4%;
+  }
+}
+@media (max-width: 770px) {
+  .element {
+    left: 44%;
+    top: 5.5%;
+  }
+}
 @media (max-width: 500px) {
   .slide-left {
     top: 8%;
@@ -90,11 +115,5 @@ circle {
   .element {
     top: 6%;
     left: 36%;
-  }
-}
-@media (max-width: 770px) {
-  .element {
-    left: 44%;
-    top: 5.5%;
   }
 }
