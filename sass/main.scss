@@ -1,17 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import "helper/variables";
-@import "helper/animations";
-@import "helper/placeholders";
+@import "helpers/variables";
+@import "helpers/animations";
+@import "helpers/placeholders";
 
 body {
   padding-top: 5%;
-  background-color: #F1F2F3;
+  background-color: #f1f2f3;
 }
 
 .slide-left {
+  @extend %slide-left;
   position: relative;
   left: 50%;
-  @extend %slide-left;
 }
 
 h3 {
@@ -24,7 +24,7 @@ h3 {
   line-height: 1.4;
   position: relative;
   padding-top: 2%;
-  left: -6.3%;  
+  left: -6.3%;
 }
 
 /* Chrome, Safari, Opera */
@@ -45,4 +45,3 @@ circle {
   width: 100px;
   fill: white;
 }
-
